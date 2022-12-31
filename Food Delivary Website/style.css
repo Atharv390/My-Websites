@@ -1,0 +1,233 @@
+/* *{
+
+} */
+/* body{
+    background-color: #323334;
+} */
+:root{
+    --navbar-height:0em;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin: 0em;
+    padding: 0em;
+}
+/* #logo{
+
+} */
+#logo img{
+    margin: 0.2em;
+    height: 5em;
+}
+/* #navbar{
+    position:absolute;
+} */
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content:"";
+    background-image: linear-gradient(rgb(0, 4, 255), rgb(53, 111, 159));
+    position: absolute ;
+    top: 0em;
+    bottom: em;
+    left:0em;
+    height:5em;
+    width: 94.5em ;
+    z-index:-1;
+    opacity: 0.4;
+    margin-top:0px;
+    padding:0;
+    border-radius:0.5em;
+}
+#navbar ul li {
+  list-style: none;
+    font-size: 1.5em;
+}
+#navbar ul li a{
+    color: white;
+    display:block;
+    padding:0.5em;
+    border-radius:1em;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:1em;
+    padding-top:0em;
+    height:31.5em;
+    justify-content:center;
+    align-items: center;
+}
+#Home::before{
+content:"";
+background: url("The\ Food\ Zone-logos.jpeg") no-repeat center center/cover;
+position:absolute;
+top: 0em;
+left:0em;
+/* display:absolute; */
+height: 32em;
+width:95em;
+z-index:-1;
+opacity:0.65;
+}
+#home h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+#container{
+    margin: 1em;
+    display: flex;
+}
+.h1-primary{
+    font-size:2.5em;
+}
+.h-primary{
+    font: size em;
+    padding:0.5em;
+}
+
+ p{
+    color: #ffffff;
+    text-align: center;
+    font-size:1.5em;
+    font-family: 'Oswald', sans-serif;
+}
+.btn{
+    padding:0.5em;
+    border: 0.2em solid white;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    margin: 5em;
+    font-size:0.8em;
+    border-radius:1em;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.centers{
+    color: black;
+    text-align:justify;
+}
+/* Service Section */
+#services-container{
+    background: url("https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")no-repeat center center/cover;
+    /* position: relative;
+    left: 5em; */
+} 
+#services{
+    margin:1em;
+    display: flex;
+}
+.box{
+    border:0.3em solid rgb(0, 47, 255);
+    padding:2em;
+    margin:1em;
+    border-radius:1em;
+    background-image: linear-gradient(rgb(219, 237, 248), rgb(31, 105, 148))
+}
+.box img{
+    height:10em;
+    margin:auto ;
+    display:block;
+
+}
+/* Client section */
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-section{
+    height:20em;
+}
+#clients img{
+    height: 10em;
+}
+.client-item{
+    padding:2em;
+}
+#client-section::before{
+    content:"";
+    position:absolute;
+    background: url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width:95em;
+    height: 21em;
+    z-index:-1;
+    opacity: 0.8;
+}
+/* Contact section */
+#contact{
+    position: relative;
+}
+#Contact::before{
+    content:"";
+    position:absolute;
+    background: url("https://cdn.pixabay.com/photo/2019/05/10/13/28/contact-us-4193523_960_720.jpg") no-repeat center center/cover;
+    width:95em;
+    height: 26em;
+    z-index:-1;
+    opacity: 0.8;
+}
+#Contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:2em;
+}
+#contact-box input,
+#contact-box textarea{
+    width:100%;
+    padding:0.1em;
+    border-radius:0.5em;
+    font-size:1em
+}
+#Contact-box form{
+    width:20em;
+    
+}
+#contact-box label{
+    font-size:1em;
+    font-family:'Oswald', sans-serif ;
+}
+.button{
+    padding:0.5em;
+    border: 0.2em solid white;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    margin: 1em;
+    font-size:0.8em;
+    border-radius:1em;
+    cursor: pointer;
+    /* justify-content: ; */
+    display: inline-block;
+    position: absolute;
+    right: 36em;
+    bottom: 5em;
+}
+
+.fa-brands {
+    color:#c3c3c3;
+}
+  
+  .fa-brands:hover {
+    color: #2f516a;
+  }
+  /* .footer{
+    background-color: rgb(115, 115, 115);
+    text-align: center;
+    width:95em;
+    /* margin:0..5em; */
+    
+  } */
+
+    

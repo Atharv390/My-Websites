@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title>Account page | Shopply</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1170/1170576.png">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cf3c8d9c60.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="Index.html"><img src="https://cdn-icons-png.flaticon.com/512/1170/1170576.png" width="50px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="Account.html">Account</a></li>
+            </ul>
+        </nav>
+       <a href="Cart.html"><img src="cart.png" width="30px" height="30px"></a>
+    </div>
+    </div>
+
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="image1.png" alt="">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Ragister</span>
+                        <hr id="Indicator">
+
+                    </div>
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot Password</a>
+                    </form>
+                    <form id="RegForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Ragister</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let LoginForm = document.getElementById("LoginForm");
+    let RegForm = document.getElementById("RegForm");
+    let Indicator = document.getElementById("Indicator");
+
+    function register(){
+        RegForm.style.transform = "translateX(0px)"
+       LoginForm.style.transform = "translateX(0px)"
+       Indicator.style.transform = "translateX(100px)"
+    }
+    function login(){
+        RegForm.style.transform = "translateX(300px)"
+       LoginForm.style.transform = "translateX(300px)"
+       Indicator.style.transform = "translateX(0px)"
+
+    }
+</script>
+<footer>
+    <div class="footer-container">
+      <div class="left-col">
+        <img src="https://cdn-icons-png.flaticon.com/512/1170/1170576.png" alt="" class="logo">
+        <div class="social-media">
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/atharv-chaturvedi-238a83236/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="rights-text">© 2022 Shopply Created By <b>Atharv Chaturvedi</b>  All Rights Reserved.</p>
+
+      </div>
+
+      <div class="right-col">
+        <h1>Shopply</h1>
+        <div class="border"></div>
+        <p>Enter Your Email to get a notification for new offers and deals</p>
+        <form action="" class="newsletter-form">
+          <input type="text" class="txtb" placeholder="Enter Your Email">
+          <input type="submit" class="btn" value="submit">
+        </form>
+      </div>
+    </div>
+  </footer>
