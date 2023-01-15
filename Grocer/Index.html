@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1261/1261163.png">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Grocer | A Grocery Website</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Grocer</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Advantages</a>
+            <a href="#Catagories">Catagories</a>
+            <a href="#Popular">Popular</a>
+            <a href="#vegetables">Vegetables</a>
+            <a href="#Fruits">Fruits</a>
+            <a href="#Milk">Dairy Products</a>
+            <a href="#review">Reviews</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://www.jiomart.com/images/product/original/590003516/potato-per-kg-product-images-o590003516-p590003516-0-202203170642.jpg"
+                    alt="">
+                <div class="content">
+                    <h3>Potato</h3>
+                    <span class="price">30 Rs / Per kg</span>
+                    <span class="quantity"> qty: 1kg</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://www.jiomart.com/images/product/600x600/590003515/onion-1-kg-product-images-o590003515-p590003515-0-202203170724.jpg"
+                    alt="">
+                <div class="content">
+                    <h3> Red Onion</h3>
+                    <span class="price">25 Rs / Per kg</span>
+                    <span class="quantity"> qty: 1kg</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://www.jiomart.com/images/product/600x600/590003517/tomato-1-kg-product-images-o590003517-p590003517-0-202203170629.jpg"
+                    alt="">
+                <div class="content">
+                    <h3>Tomato</h3>
+                    <span class="price">20 Rs / Per kg</span>
+                    <span class="quantity"> qty: 1kg</span>
+                </div>
+            </div>
+            <div class="total">total : 65 Rs</div>
+            <a href="#" class="btn">Check out</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder=" Enter your email" class="box">
+            <input type="password" placeholder=" Enter your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+    <script src="script.js"></script>
+    <section class="home" id="home">
+        <div class="content">
+            <h2> Welcome to <span>Grocer</span></h2>
+            <p>Grocer is a Grocery shop website which provide Fresh and organic products which is ragularly used in your
+                house.This website provide online shopping service.We also provide Dairy products, Vegetables,
+                Fruits,etc</p>
+                <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <h1 class="heading">Why only to choose<span> Grocer</span> ? Our<span> Advantages,</span> </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.wwUqKMO87no-Raq10uxs0AHaEo?pid=ImgDet&rs=1" alt="">
+                <h3> Fresh & organic Products</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+    
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.EwJNZif8-RJeLL7sf4-3pwHaHU?pid=ImgDet&rs=1" alt="">
+                <h3>Fast Home Delivery service</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+    
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.3EzqLnGDHyb98lyKVvB4wwHaFj?pid=ImgDet&rs=1" alt="">
+                <h3>Secure Payment</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+    
+        </div>
+    
+    </section>
+    <section class="Catagories" id="Catagories">
+        <h1 class="heading">Our<span> categories</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg" alt="">
+                <h3> Fresh Vegetables</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+    
+            <div class="box">
+                <img src="https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4" alt="">
+                <h3>Fresh Fruits</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+    
+            <div class="box">
+                <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/9685/iStock-544807136.jpg" alt="">
+                <h3>Dairy Products</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+    
+        </div>
+    
+    </section>
+   
+    <section class="Popular" id="Popular">
+        <h1 class="heading">Our<span> Popular</span> Products</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.zDAQqocFuho3bdJELPJMpwHaGm?pid=ImgDet&w=1280&h=1142&rs=1" alt="">
+                <h3> Potato</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 30 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://ml0co0iaphua.i.optimole.com/JAgwYw-T_vicYG6/w:1000/h:1000/q:auto/https://gharstuff.com/wp-content/uploads/2019/01/Amul-Moti-Toned-Milk-500ml.jpg" alt="">
+                <h3> Amul Milk</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                <h2 class="Price">Price 20 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.805f607b3339a78a4f48083a7b1c140a?rik=ya2lHzqiHmgoVA&riu=http%3a%2f%2fayay.co.uk%2fbackgrounds%2ffood_and_drink%2ffruit%2fbunch-of-bananas.jpg&ehk=%2bJ3fd%2f%2bQgl%2bPg9vBoCJmF7mRvOkuvCEWo0DaTALj3%2bU%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3> Banana</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <h2 class="Price">Price 25 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <!-- <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.yHAhVFITZ7PRu22HCHQLnwHaHa?pid=ImgDet&w=1000&h=1000&rs=1" alt="">
+                <h3>Ghadi Detergent</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 60 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div> -->
+        </div> 
+    </section>
+    <section class="vegetables" id="vegetables">
+        <h1 class="heading">Our<span> Vegetables & Salad</span> Section</h1>
+         <div class="box-container">
+
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.zDAQqocFuho3bdJELPJMpwHaGm?pid=ImgDet&w=1280&h=1142&rs=1" alt="">
+                <h3> Potato</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 30 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://www.ageold.com/wp-content/uploads/2016/01/Dollarphotoclub_55631648-a.jpg" alt="">
+                <h3> Onion</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                <h2 class="Price">Price 20 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://images8.alphacoders.com/434/434469.jpg" alt="">
+                <h3> Pea</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <h2 class="Price">Price 25 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/5299/h1018g16207257715328.jpg" alt="">
+                <h3>Cauliflower</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 60 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+
+            <div class="box">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71nFvA-EOeL._SL1500_.jpg" alt="">
+                <h3> Cabbage</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 30 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://www.extrachai.com/wp-content/uploads/2018/05/Spinach-All-Green.jpg" alt="">
+                <h3> spinach</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                <h2 class="Price">Price 20 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://freshleafuae.com/wp-content/uploads/2019/10/20190122-215745.progressive-600x600.jpg" alt="">
+                <h3> Tomato</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <h2 class="Price">Price 25 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.f9af608a3148c6c74d8892e33b4fe850?rik=2CYkAGbe3hTMHw&riu=http%3a%2f%2fwww.farmhouse.com.pk%2fwp-content%2fuploads%2f2017%2f03%2fbottle-gourd.jpeg&ehk=TKRSpTG%2b55%2bX%2fdBANEUUPbKrm%2bFV2TFsIsOBsTC3hio%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Bottle Gourd</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 60 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.MAIgGI6xRjMVX4mHIl_GtgHaFY?pid=ImgDet&rs=1" alt="">
+                <h3>Carrot</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 30 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.5c88b64f37fb9efcf8fcabeed79e3b5c?rik=In7ddGjV4zbbqA&riu=http%3a%2f%2fwww.organiclifestylemagazine.com%2fwp-content%2fuploads%2f2013%2f07%2fcucumber.jpg&ehk=HfnS78zf0a74K4Vxefk8SvOzGkAP8M5tUSqKL5X%2fsbU%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Cucumber</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                <h2 class="Price">Price 20 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.046fd303242c898a102d75240b26976d?rik=Vj%2bJmwD5CdiHkA&riu=http%3a%2f%2fwww.picserver.org%2fpictures%2fgreen-chili-peppers04-lg.jpg&ehk=5DcBSmSUJeuYJR4EFxUwj4DgRakphd4hd%2bFu%2fU3kJjs%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Green Chili</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <h2 class="Price">Price 25 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://2.bp.blogspot.com/-K48450o-0EE/TpFYU9J8LFI/AAAAAAAAAJA/9xuyxdFl4pQ/s1600/Red+onion.jpg" alt="">
+                <h3>Red Onion</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 60 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+        </div> 
+    </section>
+    <section class="Fruits" id="Fruits">
+        <h1 class="heading">Our<span> Fruits</span> Section</h1>
+         <div class="box-container">
+
+            <div class="box">
+                <img src="https://www.industryleadersmagazine.com/wp-content/uploads/2012/04/Apple.jpg" alt="">
+                <h3>Apple</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 30 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://images5.alphacoders.com/376/376700.jpg" alt="">
+                <h3>Banana</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                <h2 class="Price">Price 20 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.f859e8089cd4b5863f2b5f7307f6d102?rik=2QO7dvm1194V9g&riu=http%3a%2f%2f2.bp.blogspot.com%2f-nO3i79uyFIE%2fTo6A2WJeTcI%2fAAAAAAAAAA4%2fhI2AvxvxSgE%2fs1600%2fmango.jpg&ehk=ovKgDrUHOZApqn7Be6T2ecYf%2fjVX%2b4sbp17GM5U7z%2fI%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Mango</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <h2 class="Price">Price 25 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.Baw1lnQArFXLcRtuf2OrLwHaHa?pid=ImgDet&w=1200&h=1200&rs=1" alt="">
+                <h3>Papaya</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 60 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+
+            <div class="box">
+                <img src="https://s-media-cache-ak0.pinimg.com/736x/4d/c1/58/4dc158729c0164193f65d999a93c059d.jpg" alt="">
+                <h3>Graps</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 30 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.SVXcSqErj1qzME8dqGwHFAHaF0?pid=ImgDet&rs=1" alt="">
+                <h3> Kiwi</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                <h2 class="Price">Price 20 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.c9e989bba595821771560f122ce61e6a?rik=ThbZGDhlaOunBg&riu=http%3a%2f%2fonedaycart.com%2fmedia%2fcatalog%2fproduct%2fcache%2f1%2fthumbnail%2f9df78eab33525d08d6e5fb8d27136e95%2fp%2fi%2fpineapple.jpg&ehk=I%2bhqz95m7lQFVBCKKaJG%2fvv3NHMTVYVuNeHANsPiVas%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Pine Apple</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <h2 class="Price">Price 25 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.4d39e58bc7b5b67f267730d64a041bc1?rik=JkfDKqY3aoQJ1w&riu=http%3a%2f%2f2.bp.blogspot.com%2f-VODMluYzKLA%2fUQDmN2PsvPI%2fAAAAAAAAAXQ%2fbCXLPQVOopM%2fs1600%2fwatermelon.jpg&ehk=m1CPCOhUX%2bddmKuQ12ECf19u8EAashoCiAbslKH0ncg%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Water Malon</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 60 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.8ee70e54817549eb5fbf9dc72a481a75?rik=NmqwT6OeAUHMeg&riu=http%3a%2f%2fyourmedguide.com%2fwp-content%2fuploads%2f2014%2f09%2fcoconut-health-benefits.jpg&ehk=l0IFOsu8DAQUQXds%2f7PTwEAqHVnflk3u3yqaC6VXTfY%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Coconut</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 30 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.M1W8f-P4vkjrv7i1VDgM_wHaE8?pid=ImgDet&rs=1" alt="">
+                <h3>Orange</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                <h2 class="Price">Price 20 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.620b21239e1af9d2e791a2c6943c9056?rik=nX1%2brFk1ILsKVA&riu=http%3a%2f%2fwww.viralnovelty.net%2fwp-content%2fuploads%2f2014%2f09%2f126.jpg&ehk=j5avY8ACHBSKfbAGaQ7iwUq8esQ84hGD8LKoqzGTdns%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Sapodilla</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <h2 class="Price">Price 25 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.8071f0357ceafcfe8da48a34ea38da18?rik=cW9j0ejQ9aoVWw&riu=http%3a%2f%2fwomenpla.net%2fwp-content%2fuploads%2f2014%2f12%2fguava1.jpg&ehk=IaBcB3BvRRBtqjRRrSoEPxpZaZ2VEfb3fQbJ%2f%2fdpAZ4%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Guava</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 60 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+        </div> 
+    </section>
+    <section class="Milk" id="Milk">
+        <h1 class="heading">Our<span> Dairy</span> Products</h1>
+         <div class="box-container">
+
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.KtPP6umIFgFw3lPACVnRRgAAAA?pid=ImgDet&w=470&h=500&rs=1" alt="">
+                <h3>Milk</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 30 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://employlawupdate.files.wordpress.com/2015/08/cheese.jpg" alt="">
+                <h3>Cheese</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                <h2 class="Price">Price 20 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.c1ae6928c48fe34138150eac721d53fd?rik=gLlIMT22nV1rdg&riu=http%3a%2f%2fsupernutritionacademy.com%2fwp-content%2fuploads%2f2013%2f02%2fbutter.jpg&ehk=yqOuemoTHkUHjtSGtj86R4mlV%2bb53l4%2bjfJriJenZHY%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Butter</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <h2 class="Price">Price 25 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://i.pinimg.com/originals/61/31/40/613140f9d80af41184bdbdbc28443713.jpg" alt="">
+                <h3>Ice Cream</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 60 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.v8WpOA_44eXStcaEfLmqBAHaE8?pid=ImgDet&rs=1" alt="">
+                <h3>Ghee</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 30 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://www.thespruceeats.com/thmb/VnpxEUM1IV-QKCHQTxerd5JEEYI=/2121x1414/filters:fill(auto,1)/turkish-drink-ayran-or-kefir---buttermilk-made-with-yogurt--1136164558-0e05d36a301946ddb8373b7020f97999.jpg" alt="">
+                <h3> Butter Milk</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                <h2 class="Price">Price 20 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://www.healthbenefitstimes.com/glossary/wp-content/uploads/2020/09/Curd.jpg" alt="">
+                <h3>Curd</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <h2 class="Price">Price 25 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.fF3hLYkAAQolhL5lEypBGgHaHa?pid=ImgDet&rs=1" alt="">
+                <h3>Paneer</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 60 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            
+            <div class="box">
+                <img src="https://qph.fs.quoracdn.net/main-qimg-446534cf23f02556c9ea11629d9cc1da" alt="">
+                <h3>Lassi</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 30 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/R.58260a6907ce34476eb94118c83fc723?rik=DJmBLAF1J00nbw&riu=http%3a%2f%2fwww.dvo.com%2frecipe_pages%2fbrazil%2fSweet_Milk.jpg&ehk=pw2ZsSp0Vj6VWr5IFKve0EOoyJ2gZAZNb3SROVpoY78%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Milk Sweet</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                <h2 class="Price">Price 20 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://2.wlimg.com/product_images/bc-full/2019/10/6666185/milk-cream-1571201682-5117640.jpeg" alt="">
+                <h3>Milk Cream</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <h2 class="Price">Price 25 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+            <div class="box">
+                <img src="https://th.bing.com/th/id/OIP.7vaEvNkzrkSTtCZRE0bukwHaHa?pid=ImgDet&rs=1" alt="">
+                <h3>Yogurts</h3>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+                <h2 class="Price">Price 60 RS</h2>
+                <a href="#" class="btn">Order Nows</a>
+            </div>
+        </div> 
+    </section>
+    <section class="review" id="review">
+
+        <h1 class="heading"> our customers <span>reviews</span> </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="https://cdn-icons-png.flaticon.com/512/668/668709.png" alt="">
+                <h3>Aditya Verma</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>This was the best grocery website which I like and it also provide home delivery,This website is very usefull to me </p>
+            </div>
+            <div class="box">
+                <img src="https://cdn-icons-png.flaticon.com/512/668/668709.png" alt="">
+                <h3>Abhishek Sharma</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Best Grocery website that offer vegetables, Fruits and dairy products also.I like this very much </p>
+            </div>
+            <div class="box">
+                <img src="https://cdn-icons-png.flaticon.com/512/668/668709.png" alt="">
+                <h3>Prateek Mishra</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Bet grocery website that i like it that offers many ragular house hold facilities.i it is very helpfull for me,It also provide home delivery which i like much </p>
+            </div>
+    
+        </div>
+    
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3> grocer <i class="fas fa-shopping-basket"></i> </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+    
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+    
+        </div>
+    
+        <div class="credit"> &copy;2023 <span> Grocer </span> | all rights reserved </div>
+    
+    </section>
+    
+</body>
+
+</html>
