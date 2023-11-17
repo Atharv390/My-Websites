@@ -1,0 +1,72 @@
+<HTML>
+
+    <HEAD>
+      <TITLE>Hey, I'm Atharv</TITLE>
+      <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+      <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2922/2922510.png">
+      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+      
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+      <script src="https://kit.fontawesome.com/cf3c8d9c60.js" crossorigin="anonymous"></script>
+    </HEAD>
+    
+    <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <!-- <h1 class="navtxt">Atharv Chaturvedi</h1> -->
+          <div class="logo">
+            <h1 class="text">ATHARV</h1>
+          </div>
+          <li><a href="#Home" active>Home</a></li>
+          <div class="vr"></div>
+          <li><a href="#About">About</a></li>
+          <div class="vr"></div>
+          <li><a href="#Skills">Skills</a></li>
+          <div class="vr"></div>
+          <li><a href="#Projects">Projects</a></li>
+          <div class="vr"></div>
+          <li><a href="#Contact">Contact</a></li>
+          <div class="vr"></div>
+          <li><a href="https://thetecnowave.blogspot.com/">Blog</a></li>
+          <div class="vr"></div>
+          <li><a href="">Portfolio</a></li>
+          <div class="vr"></div>
+          <div class="icons">
+          <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+  
+        </ul>
+      </nav>
+    </header>
+    <section class="Projects" id="Projects">
+        <h2>My Latest Projects</h2>
+        <div class="box-container">
+    
+          <div class="box">
+              <img src="static/images/food hub.png" alt="">
+              <h3>
+                The Food Hub | A resturant website</h3>
+              <p>he Food Hub is a restaurant website.This Website contains the food home delivery services of a restaurant. Explore it.</p>
+              <a href="https://thefoodhubb.netlify.app/" class="btn">Visit Now</a>
+          </div>
+    
+          <div class="box">
+              <img src="static/images/grocer.png" alt="">
+              <h3>
+                Groceer | A Grocery Website</h3>
+              <p>Grocer Is A Grocery Shop Website That Provides Fresh And Organic Products Which Is Regularly Used In Your House. This Website Provide Online Shopping Service. We Also Provide Dairy Products, Vegetables, Fruits, Etc. I created this website using HTML, CSS, and Javascript.</p>
+              <a href="https://groceer.netlify.app/" class="btn">Visit Now</a>
+          </div>
+    
+          <div class="box">
+              <img src="static/images/Shopply.png" alt="">
+              <h3>
+                Shopply | An Ecommerce Website</h3>
+              <p>Shopply is an ecommerce website created by using HTML , CSS . Explore </p>
+              <a href="https://shopplyecommerce.netlify.app/" class="btn">Visit Now</a>
+          </div>
+        </div>
+      </div>
+      </section>
